@@ -49,6 +49,11 @@
 -------------------------------------------------------
 ## Installation 
 - we will be needing node and vite
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
 ## Usage
 - [none]
 ## Contributions
@@ -93,6 +98,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## ADD SECTION 
 - 🕯️GitHub = https://github.com/keenanmaupin/specialized_REACT_portfolio 🕯️
 - 🕯️LiveURL = 🕯️
+- 🕯️Img = 🕯️
+
 ## Questions
 - 🖍️[GitHub]🖍️: keenanmaupin
 - https://github.com/keenanmaupin
