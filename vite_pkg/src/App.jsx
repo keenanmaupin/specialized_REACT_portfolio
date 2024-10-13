@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import AboutMe from './sections/AboutMe.jsx';
+import Portfolio from './sections/Portfolio.jsx';
+import Contact from './sections/Contact.jsx';
+import Resume from './sections/Resume.jsx';
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('AboutMe');
