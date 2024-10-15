@@ -29,24 +29,24 @@ const App = () => {
   return (
     <div>
       <header>
-        <h1>Your Name</h1>
+        <h1><bolder> Keenan Maupin </bolder></h1>
         <nav className={currentSection}>
           <div className="hamburger" onClick={() => document.querySelector('nav').classList.toggle('active')}>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>Here is where I can add ass much text as I need to descibe what theis landing page is going to be </div>
+            <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, recusandae voluptatibus doloribus pariatur fugiat assumenda modi soluta. Suscipit, cum nihil corrupti ex eligendi quo, eaque, sunt nulla placeat iure beatae.</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis impedit illo vero et odit veritatis, cum facilis quisquam necessitatibus est culpa neque dicta natus, voluptatem atque? Eaque rerum molestiae maiores.</div>
           </div>
           <ul>
-            <li onClick={() => handleNavClick('AboutMe')}>About Me</li>
-            <li onClick={() => handleNavClick('Portfolio')}>Portfolio</li>
-            <li onClick={() => handleNavClick('Contact')}>Contact</li>
-            <li onClick={() => handleNavClick('Resume')}>Resume</li>
+            <li onClick={() => handleNavClick('AboutMe')}>[About Me]</li>
+            <li onClick={() => handleNavClick('Portfolio')}>[Portfolio]</li>
+            <li onClick={() => handleNavClick('Contact')}>[Contact]</li>
+            <li onClick={() => handleNavClick('Resume')}>[Resume]</li>
           </ul>
         </nav>
       </header>
       <main>{renderSection()}</main>
       <footer>
-        <p>GitHub | LinkedIn | Twitter</p>
+        <p><a src = 'https://github.com/keenanmaupin'><bolder>GitUp</bolder></a> | <a src='https://www.linkedin.com/in/keenan-maupin-84b14a333/'><bolder>Linked_in</bolder> </a>|<a src='maupin.keenan97@gmail.com'><bolder>Email</bolder></a></p>
       </footer>
     </div>
   );
