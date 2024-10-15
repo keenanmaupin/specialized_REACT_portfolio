@@ -1,7 +1,7 @@
 const Portfolio = () => {
     return (
       <section id="portfolio">
-        <h2>Portfolio</h2>
+        <h2 style = {{marginLeft: '120px'}}>~Portfolio~</h2>
         <div className="portfolio-items">
           {/* Replace these with your actual projects */}
           <div>
