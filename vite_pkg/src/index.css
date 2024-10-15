@@ -1,17 +1,12 @@
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(219, 181, 13, 0.87);
   background-color: #0f3101;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -27,6 +22,9 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-shadow: 8px 8px 8px;
+  margin-left: 400px;
+  padding-top: 25px
 }
 
 nav {
@@ -37,6 +35,7 @@ nav {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  
 }
 
 .hamburger div {
@@ -44,6 +43,11 @@ nav {
   height: 3px;
   background: rgb(129, 3, 3);
   margin: 4px 0;
+  
+}
+.hamburgerPosition{
+  margin-left: 350px;
+  text-shadow: 8px 8px 8px;
 }
 
 nav ul {
@@ -116,5 +120,9 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.avatar{
+  margin-left: 350px;
 }
 

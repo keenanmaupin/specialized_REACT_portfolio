@@ -4,8 +4,8 @@ import avatar from '../assets/file.jpg';
 const AboutMe = () => {
   return (
     <section>
-      <h2>About Me</h2>
-      <p>This is the About Me section.</p>
+      <h2 class= "aboutme-section title">About Me</h2>
+      <p>- Here is a quick scope of my most recent Heald Position and Motive</p>
       <ul>
         <li> Most recent Company: Kratos Defense </li>
         <li> Duration: 4 years </li>
@@ -20,11 +20,12 @@ const AboutMe = () => {
       </p>
       <hr></hr>
       <br></br>
-      <img src= {avatar}
-                alt="Keenan's Avatar" style={{ width: '500px', height: '600px', borderRadius: '30%', padding: '90px'}} />
+      <img class= 'avatar' src= {avatar}
+                alt="Keenan's Avatar" style={{ width: '500px', height: '600px', borderRadius: '30%', padding: '20px'}} />
       <br></br>
+      <hr></hr>
       <p>
-        - I am currently a full time student, focusing primarily on developing and maintaining both Front-end and Back-end of Software Development. My goal is to continue to contribute to the success 
+        - I am currently a full time student, focusing primarily on developing and maintaining both Front and Back-end knowledge of Software Development. My goal is to continue to contribute to the success 
         of this new Career choice and pursue new hights I once believed unatainable. Hvaing the expeirance of using the languages:.
         <ul>
           <li>HTML5, CSS3, JavaScript </li>
