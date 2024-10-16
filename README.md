@@ -98,7 +98,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## ADD SECTION 
 - 🕯️GitHub = https://github.com/keenanmaupin/specialized_REACT_portfolio 🕯️
 - 🕯️LiveURL = 🕯️
-- 🕯️Img = 🕯️
+- 🕯️Img = https://docs.google.com/document/d/1iEzKQuA1hxW7_olRN7K6n-HEA1ElFMXLujbmxPFrDvM/edit?usp=sharing 🕯️
 
 ## Questions
 - 🖍️[GitHub]🖍️: keenanmaupin

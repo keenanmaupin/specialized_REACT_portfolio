@@ -74,6 +74,10 @@ const App = () => {
 						<bolder>🌿Email🌱🌿....🐌</bolder>
 					</a>
 				</p>
+				<h3>
+                <p style={{color:'red', fontFamily:'initial'}}>"GET HIM ON OUR TEAM !"</p>
+                </h3>
+                []...[]...[]...<a href="https://emoji.gg/emoji/1640-do-not-disturb"><img src="https://cdn3.emoji.gg/emojis/1640-do-not-disturb.gif" width="64px" height="64px" alt="Do_Not_Disturb"></img>        </a>
 			</footer>
 		</div>
 	);

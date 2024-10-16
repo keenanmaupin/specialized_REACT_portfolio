@@ -31,14 +31,14 @@ const AboutMe = () => {
         - I am currently a full time student, focusing primarily on developing and maintaining both Front and Back-end knowledge of Software Development. My goal is to continue to contribute to the success 
         of this new Career choice and pursue new hights I once believed unatainable. Hvaing the expeirance of using the languages:.
         <ul>
-          <li>HTML5, CSS3, JavaScript </li>
-          <li>React.js, Node.js, Express.js </li>
-          <li>SQL, MongoDB </li>
+          <li>HTML | CSS | JavaScript </li>
+          <li>React.js | Node.js | Express.js </li>
+          <li>SQL | MongoDB </li>
         </ul>
         - Tools:.
         <ul>
-          <li>VS Code, Git, Postman, Slack-Overflow, </li>
-          <li>pgAdmin and Insomnia</li>
+          <li>VS Code | Git | Postman | Slack-Overflow | </li>
+          <li>pgAdmin | Insomnia</li>
         </ul>
         - I am eager to learn and grow as a software developer and always strive to improve my skills and knowledge.
         - I am also looking forward to collaborating with other developers to create innovative solutions for my next career driven mission.
