@@ -27,7 +27,7 @@ const App = () => {
 	};
 
 	return (
-		<div >
+		<div class='neutralBackground'>
 				<header class = 'header' >
 					<h1 style= {{color:"black"}} >
 						<bolder>Keenan Maupin </bolder>
@@ -60,7 +60,7 @@ const App = () => {
 					</nav>
 				</header>
 			<main>{renderSection()}</main>
-			<footer>
+			<footer style={{cursor: 'pointer'}}>
 				<p>
 					<a src="https://github.com/keenanmaupin">
 						&copy; <bolder>🌿🌱GitUp</bolder>
@@ -80,3 +80,4 @@ const App = () => {
 };
 
 export default App;
+

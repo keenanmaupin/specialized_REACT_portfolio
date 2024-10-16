@@ -3,10 +3,7 @@ const Resume = () => {
       <section>
         <h2 style = {{marginLeft: '120px'}}>~Resume~</h2>
         <p>
-          <a src="https://docs.google.com/document/d/1Qf551Z1_pcMoOuwCqUF3
-          eRydXBBAeGGgs0HQdfbZlvc/edit?tab=t.0#heading=h.v2fppoicsu1x">
-          [Resume Hyperlink]
-          </a>
+          <a src="https://docs.google.com/document/d/1Qf551Z1_pcMoOuwCqUF3eRydXBBAeGGgs0HQdfbZlvc/edit?tab=t.0#heading=h.v2fppoicsu1x" style={{cursor: 'pointer'}}>[Resume Hyperlink]</a>
         </p>
         <ul>
           <li>
@@ -30,7 +27,7 @@ const Resume = () => {
             </ul>
           </li>
         </ul>
-        <a href="./assets/resume.pdf" download="./assets/resume.pdf">
+        <a href="./assets/resume.pdf" download="./assets/resume.pdf" >
         Download Resume PDF 💾
         </a>
         <hr></hr>

@@ -5,10 +5,12 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgb(219, 181, 13);
+  color: #ffc400;
   background-color: #096418ad;
 }
-
+.neutralBackground{
+  background-image: url('./assets/neutral.jpg');
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -140,4 +142,3 @@ button:focus-visible {
 .avatar{
   margin-left: 350px;
 }
-
