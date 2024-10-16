@@ -57,7 +57,12 @@
 ## Usage
 - [none]
 ## Contributions
-- [none]
+- https://emoji.gg/emoji/1640-do-not-disturb
+- https://emojicopy.com/
+- https://www.adobe.com/express/feature/image/convert/png-to-jpg
+- https://www.google.com/search?q=neutral%20green%20background&udm=2&tbs=rimg:CS6erj_1MJLAZYdWv5BcMHU33sgIAwAIA2AIA4AIA&cs=
+  1&rlz=1C1VDKB_enUS1118US1118&hl=en&sa=X&ved=0CBsQuIIBahcKEwj49c3d6pOJAxUAAAAAHQAAAAAQEA&biw=1920&bih=945&dpr=1
+
 -------------------------------------------------------
 ## User Story
 - 🕯️AS AN employer looking for candidates with experience building single-page applications
