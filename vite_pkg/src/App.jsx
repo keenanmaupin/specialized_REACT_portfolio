@@ -36,12 +36,14 @@ const App = () => {
             <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, recusandae voluptatibus doloribus pariatur fugiat assumenda modi soluta. Suscipit, cum nihil corrupti ex eligendi quo, eaque, sunt nulla placeat iure beatae.</div>
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis impedit illo vero et odit veritatis, cum facilis quisquam necessitatibus est culpa neque dicta natus, voluptatem atque? Eaque rerum molestiae maiores.</div>
           </div>
-          <ul className= "hamburgerPosition">
-            <li onClick={() => handleNavClick('AboutMe')}>[About Me]</li>
-            <li onClick={() => handleNavClick('Portfolio')}>[Portfolio]</li>
-            <li onClick={() => handleNavClick('Contact')}>[Contact]</li>
-            <li onClick={() => handleNavClick('Resume')}>[Resume]</li>
-          </ul>
+            <a src= "">
+              <ul className= "hamburgerPosition">
+                <li onClick={() => handleNavClick('AboutMe')}>[About Me]</li>
+                <li onClick={() => handleNavClick('Portfolio')}>[Portfolio]</li>
+                <li onClick={() => handleNavClick('Contact')}>[Contact]</li>
+                <li onClick={() => handleNavClick('Resume')}>[Resume]</li>
+              </ul>
+            </a>
         </nav>
       </header>
       <main>{renderSection()}</main>

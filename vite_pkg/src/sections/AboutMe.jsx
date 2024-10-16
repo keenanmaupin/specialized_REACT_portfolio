@@ -41,6 +41,7 @@ const AboutMe = () => {
         - I am also looking forward to collaborating with other developers to create innovative solutions for my next career driven mission.
       </p>
       <hr></hr>
+      <hr></hr>
     </section>
   );
 };

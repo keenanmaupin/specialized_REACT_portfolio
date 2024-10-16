@@ -23,7 +23,7 @@ const Contact = () => {
         <input
           type="text"
           name="name"
-          placeholder="Your Name"
+          placeholder="First-Name & Last-Name"
           required
           value={formData.name}
           onChange={handleChange}
@@ -36,6 +36,7 @@ const Contact = () => {
           value={formData.email}
           onChange={handleChange}
         />
+        <hr></hr>
         <textarea
           name="message"
           placeholder="Your Message"
@@ -45,6 +46,8 @@ const Contact = () => {
         ></textarea>
         <button type="submit">Send</button>
       </form>
+      <hr></hr>
+      <hr></hr>
     </section>
   );
 };
