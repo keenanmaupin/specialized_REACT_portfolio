@@ -46,7 +46,7 @@ const App = () => {
       </header>
       <main>{renderSection()}</main>
       <footer>
-        <p><a src = 'https://github.com/keenanmaupin'><bolder>GitUp</bolder></a> | <a src='https://www.linkedin.com/in/keenan-maupin-84b14a333/'><bolder>Linked_in</bolder> </a>|<a src='maupin.keenan97@gmail.com'><bolder>Email</bolder></a></p>
+        <p><a src = 'https://github.com/keenanmaupin'>&copy; <bolder>🌿🌱GitUp</bolder></a> | <a src='https://www.linkedin.com/in/keenan-maupin-84b14a333/'><bolder>🌻Linked_in🌿</bolder> </a>|<a src='maupin.keenan97@gmail.com'><bolder>🌿Email🌱🌿....🐌</bolder></a></p>
       </footer>
     </div>
   );
