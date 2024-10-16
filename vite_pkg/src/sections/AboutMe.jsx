@@ -20,7 +20,7 @@ const AboutMe = () => {
       </p>
       <hr></hr>
       <br></br>
-      <img class= 'avatar' src= {avatar}
+      <img class= 'avatar' src= {avatar} 
                 alt="Keenan's Avatar" style={{ width: '500px', height: '600px', borderRadius: '30%', padding: '20px'}} />
       <br></br>
       <hr></hr>

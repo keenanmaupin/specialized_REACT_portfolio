@@ -5,10 +5,22 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(219, 181, 13, 0.87);
+  color: rgb(219, 181, 13);
   background-color: #096418ad;
 }
 
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-top: 0px;
+  background-color: #855b0cf6;
+  border-radius: 65px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(1, 1, 1,1);
+  background-image: url('./assets/plants.jpg');
+}
 body {
   margin: 0;
   display: flex;
@@ -20,22 +32,24 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.8em;
   line-height: 1.1;
   text-shadow: 8px 8px 8px;
   margin-left: 400px;
-  padding-top: 25px
+  padding-top: 25px;
+  padding-top: 90px;
+  
 }
 
 nav {
-  position: relative;
+  position:relative
+  
 }
 
 .hamburger {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  
 }
 
 .hamburger div {
@@ -48,6 +62,7 @@ nav {
 .hamburgerPosition{
   margin-left: 350px;
   text-shadow: 8px 8px 8px;
+  font-size: x-large;
 }
 
 nav ul {
@@ -83,7 +98,7 @@ nav ul li {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #000000;
   text-decoration: inherit;
 }
 a:hover {
@@ -115,7 +130,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #1921be;
   }
   button {
     background-color: #f9f9f9;

@@ -3,6 +3,7 @@ import AboutMe from "./sections/AboutMe.jsx";
 import Portfolio from "./sections/Portfolio.jsx";
 import Contact from "./sections/Contact.jsx";
 import Resume from "./sections/Resume.jsx";
+
 const App = () => {
 	const [currentSection, setCurrentSection] = useState("AboutMe");
 
@@ -27,37 +28,37 @@ const App = () => {
 
 	return (
 		<div >
-			<header >
-				<h1>
-					<bolder> Keenan Maupin </bolder>
-				</h1>
-				<nav className={currentSection}>
-					<div
-						className="hamburger"
-						onClick={() =>
-							document.querySelector("nav").classList.toggle("active")
-						}
-            >
-            </div>
-					<ul className="hamburgerPosition">
-						<a src="">
-							<li onClick={() => handleNavClick("AboutMe")}>[About Me]</li>
-						</a>
-            <br></br>
-						<a src="">
-							<li onClick={() => handleNavClick("Portfolio")}>[Portfolio]</li>
-						</a>
-            <br></br>
-						<a src="">
-							<li onClick={() => handleNavClick("Contact")}>[Contact]</li>
-						</a>
-            <br></br>
-						<a src="">
-							<li onClick={() => handleNavClick("Resume")}>[Resume]</li>
-						</a>
-					</ul>
-				</nav>
-			</header>
+				<header class = 'header' >
+					<h1 style= {{color:"black"}}>
+						<bolder>Keenan Maupin </bolder>
+					</h1>
+					<nav className={currentSection}>
+						<div
+							className="hamburger"
+							onClick={() =>
+								document.querySelector("nav").classList.toggle("active")
+							}
+				>
+				</div>
+						<ul className="hamburgerPosition">
+							<a src="" >
+								<li onClick={() => handleNavClick("AboutMe")}>[About Me]</li>
+							</a>
+				<br></br>
+							<a src="">
+								<li onClick={() => handleNavClick("Portfolio")}>[Portfolio]</li>
+							</a>
+				<br></br>
+							<a src="">
+								<li onClick={() => handleNavClick("Contact")}>[Contact]</li>
+							</a>
+				<br></br>
+							<a src="">
+								<li onClick={() => handleNavClick("Resume")}>[Resume]</li>
+							</a>
+						</ul>
+					</nav>
+				</header>
 			<main>{renderSection()}</main>
 			<footer>
 				<p>
