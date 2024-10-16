@@ -63,7 +63,7 @@ const App = () => {
 			<footer style={{cursor: 'pointer'}}>
 				<p>
 					<a src="https://github.com/keenanmaupin">
-						&copy; <bolder>🌿🌱GitUp</bolder>
+						&copy; <bolder>🌿🌱GitHub</bolder>
 					</a>{" "}
 					|{" "}
 					<a src="https://www.linkedin.com/in/keenan-maupin-84b14a333/">
