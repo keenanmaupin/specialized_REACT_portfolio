@@ -29,7 +29,7 @@ const App = () => {
 	return (
 		<div >
 				<header class = 'header' >
-					<h1 style= {{color:"black"}}>
+					<h1 style= {{color:"black"}} >
 						<bolder>Keenan Maupin </bolder>
 					</h1>
 					<nav className={currentSection}>

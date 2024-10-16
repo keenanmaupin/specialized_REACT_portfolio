@@ -13,16 +13,19 @@ const AboutMe = () => {
         <li> City: Sacramento,  State: California</li>
       </ul>
       <hr></hr>
+      <hr></hr>
       <br></br>
       <p>
         - I am a highly skilled and experienced avionic Advanced Manufacturing Technician with a strong focus on the development of innovative solutions for Un-Manned airial Combat Drones.
         My passion for technology and technological exploration has led me to pursue my career in aviation and furthing my knowledge of how software developments can open new doors within this field.
       </p>
       <hr></hr>
+      <hr></hr>
       <br></br>
       <img class= 'avatar' src= {avatar} 
                 alt="Keenan's Avatar" style={{ width: '500px', height: '600px', borderRadius: '30%', padding: '20px'}} />
       <br></br>
+      <hr></hr>
       <hr></hr>
       <p>
         - I am currently a full time student, focusing primarily on developing and maintaining both Front and Back-end knowledge of Software Development. My goal is to continue to contribute to the success 
