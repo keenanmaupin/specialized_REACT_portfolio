@@ -1,3 +1,5 @@
+
+
 const Portfolio = () => {
     return (
       <section id="portfolio">
@@ -6,7 +8,10 @@ const Portfolio = () => {
           <hr></hr>
           <hr></hr>
               <div>
-                <h3> <bolder>- Professional README Generator</bolder></h3>
+                <h3>  </h3>
+                <h3> <bolder>- Professional README Generator</bolder> </h3>
+                <p>
+                </p>
                 <a href="https://github.com/keenanmaupin/Professional-Readme-Gen" target="_blank" rel="noopener noreferrer">[GitHub Repo]</a>
                 <br></br>
                 <a href="https://example.com" target="_blank" rel="noopener noreferrer">[Deployed App]</a>
@@ -16,6 +21,7 @@ const Portfolio = () => {
                 <p> go back and work on it let alone waste valuable time working</p>
                 <p> on it from scratch.</p>
               </div>
+              <hr></hr>
               <hr></hr>
               <div style = {{marginLeft: '600px'}}>
                 <div>
@@ -30,6 +36,7 @@ const Portfolio = () => {
                 </div>
               </div>
               <hr></hr>
+              <hr></hr>
               <div>
                 <h3> <bolder>- Employe Database Tracker</bolder></h3>
                 <a href="https://github.com/keenanmaupin/employee_database_tracker" target="_blank" >[GitHub Repo]</a>
@@ -42,6 +49,7 @@ const Portfolio = () => {
                 <p> and allow the user to update roles and departments within the organizations.</p>
               </div>
               <hr></hr>
+              <hr></hr>
               <div style = {{marginLeft: '600px'}}>
                 <h3> <bolder>- PreWork Study Guide</bolder></h3>
                 <a href="https://github.com/keenanmaupin/prework-study-guide" target="_blank" >[GitHub Repo]</a>
@@ -53,6 +61,7 @@ const Portfolio = () => {
                 <p> In the program shows variouse material I was asked to both Learn and become comfertable with </p>
                 <p> prior to attending the Full Stack BootCamp for software Development hosted by Uc Irvine.</p>
               </div>
+              <hr></hr>
               <hr></hr>
               <div>
                 <h3> <bolder>- Backend Weather app demo</bolder></h3>
@@ -67,6 +76,7 @@ const Portfolio = () => {
                 <p> in its README / Installations .</p>
               </div>
               <hr></hr>
+              <hr></hr>
               <div style = {{marginLeft: '600px'}}>
                 <h3> <bolder>- Vehicle Build Simulator</bolder></h3>
                 <a href="https://github.com/keenanmaupin/vehicleBuildSim" target="_blank" >[GitHub Repo]</a>
@@ -80,7 +90,8 @@ const Portfolio = () => {
               </div>
               <hr></hr>
           </div>
-
+<br></br>
+          <hr></hr>
           <hr></hr>
       </section>
       

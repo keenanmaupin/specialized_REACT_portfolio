@@ -13,7 +13,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send to email or API)
   };
 
   return (
@@ -23,7 +22,7 @@ const Contact = () => {
         <input
           type="text"
           name="name"
-          placeholder="First-Name & Last-Name"
+          placeholder="First-Name & Last-Name 🔫"
           required
           value={formData.name}
           onChange={handleChange}
@@ -31,7 +30,7 @@ const Contact = () => {
         <input
           type="email"
           name="email"
-          placeholder="Your Email"
+          placeholder="Your Email 🪙💰"
           required
           value={formData.email}
           onChange={handleChange}
@@ -39,7 +38,7 @@ const Contact = () => {
         <hr></hr>
         <textarea
           name="message"
-          placeholder="Your Message"
+          placeholder='Your Message -"Its a stick-up"'
           required
           value={formData.message}
           onChange={handleChange}
