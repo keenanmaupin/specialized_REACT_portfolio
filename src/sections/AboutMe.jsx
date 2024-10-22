@@ -4,7 +4,7 @@ import avatar from '../assets/file.jpg';
 const AboutMe = () => {
   return (
     <section>
-      <h2 style = {{marginLeft: '120px'}}>~About Me~</h2>
+        <h2 style = {{marginLeft: '120px'}}>~About Me~</h2>
       <p>- Here is a quick scope of my most recent Heald Position and Motive</p>
       <ul>
         <li> Most recent Company: Kratos Defense </li>

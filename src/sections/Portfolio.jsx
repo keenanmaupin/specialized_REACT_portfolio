@@ -88,6 +88,16 @@ const Portfolio = () => {
                 <p> Basically allowing the use to choose and build a vehicle from a Truck |</p>
                 <p> Car | and a Motor Bike.</p>
               </div>
+              <div>
+                <h3> <bolder>- Frontend_person(s)_search</bolder></h3>
+                <a href="https://github.com/keenanmaupin/Frontend_person-s-Search" target="_blank" >[GitHub Repo]</a>
+                <br></br>
+                <a href="https://frontend-person-s-search-1.onrender.com/" target="_blank" >[Deployed App]</a>
+                <p> - Short Hand Description:</p>
+                <p> The application demonstrates how I was able to correct a</p>
+                <p> Canidate search application code structure that was unable to </p>
+                <p> utalize a GitHub TOKEN to access the servers site to pull data.</p>
+              </div>
               <hr></hr>
           </div>
 <br></br>
